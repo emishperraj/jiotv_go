@@ -23,59 +23,14 @@ We have video tutorials for [Windows](https://youtu.be/BnNTYTSvVBc),  and [Andro
 - 💻 Command-line interface for server management and self-update.
 - 🔄 Background start and stop feature.
 
-Get Started with JioTV Go by following the [Get Started](https://jiotv_go.rabil.me/get_started) guide.
+## Install steps 🌟
 
-## Table of Contents
+apt  install docker.io && apt  install docker-compose -y
 
-<details close>
-  <summary>Click to expand/collapse</summary>
-  
-- [JioTV Go 📺](#jiotv-go-)
-  - [Features 🌟](#features-)
-  - [Table of Contents](#table-of-contents)
-  - [Documentation](#documentation)
-  - [Join the community on Telegram:](#join-the-community-on-telegram)
-  - [Star History](#star-history)
-  - [Contributors](#contributors)
-  - [Let's Make JioTV Go Better Together! 🤝](#lets-make-jiotv-go-better-together-)
-    - [**Report Bugs**](#report-bugs)
-    - [**Ready to Contribute? Join the Journey! 🚀**](#ready-to-contribute-join-the-journey-)
-  - [**License: Attribution 4.0 International (CC BY 4.0)**](#license-attribution-40-international-cc-by-40)
-</details>
+git clone https://github.com/emishperraj/jiotv_go
 
-## Documentation
+cd jiotv_go
 
-The complete documentation for JioTV Go is available at https://jiotv_go.rabil.me/ 📖
+docker build -t jiotv_go:latest .
 
-## Join the community on Telegram:
-
-- [Announcement Channel (`jiotv_go`)](https://telegram.me/jiotv_go)
-- [Support Group (`jiotv_go_chat`)](https://telegram.me/jiotv_go_chat)
-
-## Star History
-
-<a href="https://star-history.com/#rabilrbl/jiotv_go&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rabilrbl/jiotv_go&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rabilrbl/jiotv_go&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rabilrbl/jiotv_go&type=Date" />
-  </picture>
-</a>
-
-## Contributors
-
-[![Contributors](https://contributors-img.web.app/image?repo=rabilrbl/jiotv_go)](https://github.com/rabilrbl/jiotv_go/graphs/contributors)
-
-## Let's Make JioTV Go Better Together! 🤝
-
-### **Report Bugs**
-
-Found a pesky bug? No worries! Please help us improve JioTV Go by creating an issue [here](https://github.com/rabilrbl/jiotv_go/issues/new). Be sure to include detailed steps to reproduce the bug, describe the expected behavior, and, if possible, attach screenshots. Your feedback is invaluable!
-
-### **Ready to Contribute? Join the Journey! 🚀**
-
-We wholeheartedly welcome your contributions. If you have ideas, fixes, or enhancements in mind, don't hesitate to create a pull request with your changes. For significant alterations, start by creating an issue to discuss your plans with us. Together, we can make JioTV Go even more incredible.
-
-## **License: Attribution 4.0 International (CC BY 4.0)**
-
-**Embrace the Spirit of Free Software!** JioTV Go is open-source and free to use. We're committed to keeping it accessible to everyone. If you come across any unauthorized attempts to sell this project, please report them to [me](mailto:mail@rabil.me) so we can take swift action. Your support is essential in safeguarding our project's values. 🙌📜💼
+docker-compose -f docker-compose.yml up -d
