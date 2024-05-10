@@ -1,0 +1,7 @@
+git clone https://github.com/emishperraj/jiotv_go
+
+cd jiotv_go
+
+docker build -t jiotv_go:latest .
+
+docker-compose -f docker-compose.yml up -d
