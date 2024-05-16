@@ -56,7 +56,7 @@ func main() {
 					&cli.StringFlag{
 						Name:    "host",
 						Aliases: []string{"H"},
-						Value:   "localhost",
+						Value:   "",
 						Usage:   "Host to listen on",
 					},
 					&cli.StringFlag{
