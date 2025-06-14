@@ -78,3 +78,4 @@ We wholeheartedly welcome your contributions. If you have ideas, fixes, or enhan
 ## **License: Attribution 4.0 International (CC BY 4.0)**
 
 **Embrace the Spirit of Free Software!** JioTV Go is open-source and free to use. We're committed to keeping it accessible to everyone. If you come across any unauthorized attempts to sell this project, please report them to [me](mailto:mail@rabil.me) so we can take swift action. Your support is essential in safeguarding our project's values. 🙌📜💼
+# jiotv_go_latest
